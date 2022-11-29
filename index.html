@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+<title>TODO-List App</title>
+</head>
+
+<body>
+<header>
+	<h1>TODO-List App</h1>
+</header>
+
+<form>
+	<input type="text" class="todoinput">
+	<button class="todobutton" type="submit">
+		<span class="material-icons-outlined">add_circle</span>
+	</button>
+	
+</form>
+
+<div class="todocontainer">
+	<ul id="todolist" class="todolist"></ul>
+</div>
+
+<header>
+	<h2>Save & Load</h2>
+</header>
+<form>
+	<input type="text" class="passwordinput" placeholder="Password">
+	<button class="savebutton" type="submit"><span class="material-icons-outlined">cloud_download</span></button>
+	<button class="loadbutton" type="submit"><span class="material-icons-outlined">cloud_upload</span></button>
+</form>
+<script src="./app.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+</html>
